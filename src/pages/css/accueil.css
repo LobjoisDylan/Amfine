@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding:0;
+}
+
+.menu-center {
+  margin-top:10px;
+}
+
+.white-align {
+  background-color: white;
+  padding:40px 80px;
+  text-align: center;
+  margin-top:20px;
+  margin-left:10px;
+  margin-right:10px;
+  border: solid 1px rgb(236,236,236);
+  box-shadow: 1px 2px 2px 2px rgb(236,236,236);
+}
+
+.grey-color {
+  color:rgb(199,189,207);
+}
+
+.size-icon {
+  color: rgb(83, 184, 197);
+  font-size:40px;
+}
+
+.bg-color {
+  background-color:rgb(250,250,250);
+}
+
+.logo {
+  width: 100px;
+  height:100px;
+}
+
+.center {
+  width:500px;
+  margin:auto;
+}
+
+.align {
+  text-align: center;
+  margin-top:20px;
+}
+
+.amfine {
+  font-size:35px;
+  line-height:1;
+  color: rgb(22, 31, 91);
+}
+
+.blue {
+  color: rgb(83, 184, 197);
+}
+
+.asset {
+  margin-left:85px;
+  font-weight: bold;
+}
+
+.management {
+  margin-left:32px;
+  font-weight: bold;
+}
+
+.margin-ui {
+  margin-left:40px;
+}
+
+.margin-api {
+  margin-left:32px;
+}
+
+.logo-accueil {
+  width:30px;
+  margin-right:10px;
+  margin-top:10px;
+  float:left;
+}
+
+.create {
+  margin-top:10px;
+  margin-left:20px;
+}
+
+.color-block {
+  color: rgb(11,11,111);
+}
+
+.nav-min {
+  background-color: rgb(11,11,111);
+}
+
+.color-logout {
+  background-color:rgb(11,11,111);
+  color:white;
+}
+
+.block {
+  color:white;
+  height:55px;
+  margin-left:20px;
+  text-align: center;
+}
+
+.nav-color {
+  background-color: rgb(11,11,111);
+}
+
+.p {
+  font-size:10px;
+}
+
+.q-list {
+  width:220px;
+}
+
+.kevin {
+  color: black;
+  font-size:15px;
+  float:left;
+  margin-top:7px;
+}
+.q-menu.scroll {
+  margin-top:20px;
+}
+
+@media only screen and (max-width: 576px) {
+  .nav-color {
+    display:none;
+  }
+
+  .nav-min {
+    display:block;
+  }
+
+  .input-min {
+    display:none;
+  }
+
+  .amfine-none {
+    display:none;
+  }
+}
+
+@media only screen and (min-width: 577px) {
+  .nav-color {
+  background-color: rgb(11,11,111);
+  }
+
+  .nav-min {
+    display:none;
+  }
+}

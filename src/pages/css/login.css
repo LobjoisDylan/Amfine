@@ -1,0 +1,101 @@
+* {
+    margin:0;
+    padding:0;
+}
+  
+  body {
+    background-color:rgb(238, 238, 238);
+  }
+  
+  .logo {
+    width: 100px;
+    height:100px;
+  }
+  
+  .amfine {
+    font-size:35px;
+    line-height:1;
+    color: rgb(22, 31, 91);
+  }
+  
+  .asset {
+    margin-left:85px;
+    font-weight: bold;
+  }
+  
+  .management {
+    margin-left:32px;
+    font-weight: bold;
+  }
+  
+  .blue {
+    color: rgb(83, 184, 197);
+  }
+  
+  .align {
+    text-align:center;
+  }
+  
+  .size {
+    font-size:28px;
+    font-weight:bold;
+  }
+  
+  .background-white {
+    background-color:white;
+    width:700px;
+    padding-top:10px;
+    padding-right:20px;
+    padding-left:40px;
+    padding-bottom: 10px;
+  }
+  
+  .width {
+    padding-top:10px;
+    padding-left:40px;
+    padding-right:20px;
+  }
+  
+  .width-btn {
+    width:100px;
+  }
+  
+  .circle {
+    margin-top:20px;
+    color: #999;
+    font-size:22px;
+    margin-left:20px;
+  }
+  
+  .q-btn.forgotten {
+    font-size:11px;
+  }
+  
+  .amfine-logo {
+    width:200px;
+    position:absolute;
+    right:0;
+    bottom:0;
+    margin-bottom:20px;
+    margin-right:10px;
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .background-white {
+      width:400px;
+    }
+  
+    .amfine-logo, .amfine, .asset, .management, .circle{
+      display:none;
+    }
+  }
+  
+  @media only screen and (min-width: 577px) and (max-width: 768px) {
+    .background-white {
+      width:600px;
+    }
+  
+    .amfine-logo, .amfine, .asset, .management, .circle{
+      display:none;
+    }
+  }

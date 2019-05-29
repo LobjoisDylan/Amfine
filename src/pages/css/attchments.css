@@ -1,0 +1,109 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text-left:first-child {
+  color: rgb(83, 184, 197);
+}
+
+.text-center:first-child {
+  color:blue;
+}
+
+.bg-blues {
+   background-color: rgb(83, 184, 197);
+    color:white;
+}
+
+.margin-block-nav {
+    margin-bottom:20px;
+}
+
+/* NAV */
+
+.attchments {
+  margin-left:30px;
+}
+
+.padding {
+    padding-left:325px;
+}
+
+.logo-ubp {
+  width:30px;
+  margin-right:10px;
+  margin-top:4px;
+  float:left;
+  border-radius:50%;
+  height:40px;
+  width:40px;
+}
+
+.bg-white-input {
+    background-color: white;
+    height:40px;
+    width: 250px;
+}
+
+.nav-color {
+  background-color: rgb(11,11,111);
+}
+
+.block {
+  color:white;
+  height:55px;
+  margin-left:20px;
+  text-align: center;
+}
+
+.p {
+  font-size:10px;
+}
+
+.kevin {
+  color: black;
+  font-size:15px;
+  float:left;
+  margin-top:7px;
+}
+
+.margin-ui {
+  margin-left:40px;
+}
+
+.grey-color {
+  color:rgb(199,189,207);
+}
+
+.margin-api {
+  margin-left:32px;
+}
+
+.color-logout {
+  background-color:rgb(11,11,111);
+  color:white;
+}
+
+.create {
+  margin-top:10px;
+  margin-left:20px;
+}
+
+.color-block {
+  color: rgb(11,11,111);
+}
+
+.image-blue {
+    background-color: rgb(83, 184, 197);
+    color: white;
+}
+
+/* tbody .text-center {
+  background-color:blue;
+  color: white;
+  border-radius: 100px;
+  padding: 0px 20px;
+} */
+
+/* NAV */
